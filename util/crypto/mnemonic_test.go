@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anyproto/go-slip10"
+	"github.com/altercpre/go-slip10"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/sha3"
 )

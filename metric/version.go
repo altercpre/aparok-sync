@@ -1,7 +1,7 @@
 package metric
 
 import (
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

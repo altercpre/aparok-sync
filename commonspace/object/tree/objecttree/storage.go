@@ -7,15 +7,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-store/anyenc"
-	"github.com/anyproto/any-store/query"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-store/anyenc"
+	"github.com/altercpre/aparok-store/query"
 
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/any-sync/util/storeutil"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/storeutil"
 )
 
 const (

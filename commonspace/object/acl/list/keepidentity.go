@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/encoding/protowire"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
 )
 
 // Wire field numbers the partial decoder depends on. Pinned by TestKeepIdentity_FieldNumbers /

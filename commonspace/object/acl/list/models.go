@@ -1,8 +1,8 @@
 package list
 
 import (
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 type AclStatus int

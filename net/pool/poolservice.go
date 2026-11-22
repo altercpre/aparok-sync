@@ -9,14 +9,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/atomic"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/debugstat"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/peerobserver"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peerobserver"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 )
 
 const (

@@ -3,11 +3,11 @@ package synctree
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/response"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/response"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
 )
 
 type fullResponseCollector struct {

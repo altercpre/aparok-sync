@@ -9,11 +9,11 @@ import (
 	"runtime"
 	"syscall/js"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	netpeer "github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	netpeer "github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 func New() WebTransport {

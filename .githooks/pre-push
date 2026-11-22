@@ -12,6 +12,6 @@ if [ -x "$INSTALL_PYTHON" ]; then
 elif command -v pre-commit > /dev/null; then
     exec pre-commit "${ARGS[@]}"
 else
-    echo '`pre-commit` not found. Please visit https://wiki.anytype.io/doc/mandatory-git-hooks-5rQt1Qyw7k ' 1>&2
+    echo '`pre-commit` not found. Please visit https://wiki.altercpre.w8n.pw/doc/mandatory-git-hooks-5rQt1Qyw7k ' 1>&2
     exit 1
 fi

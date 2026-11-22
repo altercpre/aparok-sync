@@ -1,12 +1,12 @@
-//go:generate mockgen -destination mock_debugstat/mock_debugstat.go github.com/anyproto/any-sync/app/debugstat StatService
+//go:generate mockgen -destination mock_debugstat/mock_debugstat.go github.com/altercpre/aparok-sync/app/debugstat StatService
 package debugstat
 
 import (
 	"context"
 	"sync"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 var log = logger.NewNamed(CName)

@@ -2,8 +2,8 @@ package nodeconfstore
 
 import (
 	"context"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"os"

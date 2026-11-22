@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/app/ldiff"
+	"github.com/altercpre/aparok-sync/app/ldiff"
 )
 
 // TestSortIdsNewestFirst asserts ids are ordered by their diff Head (big-endian

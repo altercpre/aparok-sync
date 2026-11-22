@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 func TestKeyValueFromProto_KeyPeerIdBinding(t *testing.T) {

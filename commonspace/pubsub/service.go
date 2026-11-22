@@ -11,14 +11,14 @@ import (
 	"go.uber.org/zap"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/streampool"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/streampool"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 const CName = "common.commonspace.pubsub"

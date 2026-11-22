@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
 )
 
 type inMemoryStorage struct {

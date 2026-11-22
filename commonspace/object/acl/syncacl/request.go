@@ -1,8 +1,8 @@
 package syncacl
 
 import (
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
 )
 
 type InnerRequest struct {

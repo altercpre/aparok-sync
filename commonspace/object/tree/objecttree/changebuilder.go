@@ -3,9 +3,9 @@ package objecttree
 import (
 	"errors"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/util/cidutil"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/util/cidutil"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 var (

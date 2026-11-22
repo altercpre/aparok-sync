@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_pool/mock_pool.go github.com/anyproto/any-sync/net/pool Pool,Service
+//go:generate mockgen -destination mock_pool/mock_pool.go github.com/altercpre/aparok-sync/net/pool Pool,Service
 package pool
 
 import (
@@ -14,12 +14,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app/debugstat"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/peerobserver"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peerobserver"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 )
 
 // The pool keeps one immutable pair of caches (incoming, outgoing) behind an

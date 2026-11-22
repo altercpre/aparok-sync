@@ -10,9 +10,9 @@ import (
 
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
-	"github.com/anyproto/any-sync/util/syncqueues"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/util/syncqueues"
 )
 
 type RequestManager interface {

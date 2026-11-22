@@ -7,12 +7,12 @@ import (
 	"errors"
 	"strings"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-store/anyenc"
-	"github.com/anyproto/any-store/query"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-store/anyenc"
+	"github.com/altercpre/aparok-store/query"
 
-	"github.com/anyproto/any-sync/app/ldiff"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/app/ldiff"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
 )
 
 var (

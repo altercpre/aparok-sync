@@ -15,10 +15,10 @@ import (
 	"github.com/quic-go/quic-go"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 const CName = "net.transport.quic"

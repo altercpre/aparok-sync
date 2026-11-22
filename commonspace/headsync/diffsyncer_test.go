@@ -10,16 +10,16 @@ import (
 	"go.uber.org/mock/gomock"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app/ldiff"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/headsync/statestorage"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list/mock_list"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree/mock_objecttree"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/rpc/rpctest"
+	"github.com/altercpre/aparok-sync/app/ldiff"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/statestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list/mock_list"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree/mock_objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/rpc/rpctest"
 )
 
 type pushSpaceRequestMatcher struct {

@@ -3,8 +3,8 @@ package spacestate
 import (
 	"sync/atomic"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
 )
 
 const CName = "common.commonspace.spacestate"

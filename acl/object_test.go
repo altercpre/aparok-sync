@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/consensus/consensusclient"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/consensus/consensusclient"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
 )
 
 // The consensus client can deliver more than one event for a watch before the object is dropped:

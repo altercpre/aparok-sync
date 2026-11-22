@@ -11,7 +11,7 @@ import (
 	"io"
 
 	"filippo.io/edwards25519"
-	"github.com/anyproto/go-slip21"
+	"github.com/altercpre/go-slip21"
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"

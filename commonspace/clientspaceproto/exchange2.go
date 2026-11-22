@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 // SpaceExchangeV2 token scheme.

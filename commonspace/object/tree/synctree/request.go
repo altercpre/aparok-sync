@@ -1,8 +1,8 @@
 package synctree
 
 import (
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
 )
 
 type InnerRequest struct {

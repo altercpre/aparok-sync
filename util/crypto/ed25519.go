@@ -11,8 +11,8 @@ import (
 	"sync"
 
 	"filippo.io/edwards25519"
-	"github.com/anyproto/any-sync/util/crypto/cryptoproto"
-	"github.com/anyproto/any-sync/util/strkey"
+	"github.com/altercpre/aparok-sync/util/crypto/cryptoproto"
+	"github.com/altercpre/aparok-sync/util/strkey"
 	"github.com/libp2p/go-libp2p/core/crypto"
 )
 

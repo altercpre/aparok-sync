@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
 )
 
 type storageDeferredCreation struct {

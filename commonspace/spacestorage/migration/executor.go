@@ -5,7 +5,7 @@ import (
 
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 var log = logger.NewNamed("common.spacestorage.migration")

@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_nodeconf/mock_nodeconf.go github.com/anyproto/any-sync/nodeconf Service
+//go:generate mockgen -destination mock_nodeconf/mock_nodeconf.go github.com/altercpre/aparok-sync/nodeconf Service
 package nodeconf
 
 import (
@@ -6,15 +6,15 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/anyproto/go-chash"
+	"github.com/altercpre/go-chash"
 	"go.uber.org/zap"
 
-	commonaccount "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/util/periodicsync"
+	commonaccount "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/util/periodicsync"
 )
 
 const CName = "common.nodeconf"

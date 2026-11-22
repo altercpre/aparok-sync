@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_limiter/mock_limiter.go github.com/anyproto/any-sync/net/rpc/limiter RpcLimiter
+//go:generate mockgen -destination mock_limiter/mock_limiter.go github.com/altercpre/aparok-sync/net/rpc/limiter RpcLimiter
 package limiter
 
 import (
@@ -10,11 +10,11 @@ import (
 	"golang.org/x/time/rate"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/rpc/limiter/limiterproto"
-	"github.com/anyproto/any-sync/util/periodicsync"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/rpc/limiter/limiterproto"
+	"github.com/altercpre/aparok-sync/util/periodicsync"
 )
 
 const (

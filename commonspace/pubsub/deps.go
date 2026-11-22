@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/streampool"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/streampool"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 // Handler receives a decrypted, signature-verified message on a subscribed topic.

@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/mock_synctree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/peermanager/mock_peermanager"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/peer/mock_peer"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/mock_synctree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/peermanager/mock_peermanager"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peer/mock_peer"
 )
 
 type treeRemoteGetterFixture struct {

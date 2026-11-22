@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/transport"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
 )
 
 var ctx = context.Background()

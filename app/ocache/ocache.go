@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 var (

@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/peerobserver"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peerobserver"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 )
 
 var ctx = context.Background()

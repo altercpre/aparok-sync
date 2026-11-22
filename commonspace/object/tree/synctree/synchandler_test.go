@@ -7,15 +7,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/mock_synctree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/response"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/response/mock_response"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
-	"github.com/anyproto/any-sync/commonspace/syncstatus/mock_syncstatus"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/mock_synctree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/response"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/response/mock_response"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/commonspace/syncstatus/mock_syncstatus"
+	"github.com/altercpre/aparok-sync/net/peer"
 )
 
 type testUpdater struct {

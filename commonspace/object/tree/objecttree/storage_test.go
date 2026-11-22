@@ -6,14 +6,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage/mock_headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage/mock_headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 func newTestStore(t *testing.T) anystore.DB {

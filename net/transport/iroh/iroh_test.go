@@ -17,15 +17,15 @@ import (
 	"github.com/tmc/go-iroh/netaddr"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/transport"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
-	"github.com/anyproto/any-sync/testutil/accounttest"
-	"github.com/anyproto/any-sync/testutil/testnodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
+	"github.com/altercpre/aparok-sync/testutil/testnodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 var ctx = context.Background()

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"gopkg.in/yaml.v3"
 )
 

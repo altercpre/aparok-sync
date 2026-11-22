@@ -1,7 +1,7 @@
 package recordverifier
 
 import (
-	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
 )
 
 type ValidateFull struct{}

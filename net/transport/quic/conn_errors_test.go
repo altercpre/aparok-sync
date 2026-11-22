@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 func TestWrapConnDead(t *testing.T) {

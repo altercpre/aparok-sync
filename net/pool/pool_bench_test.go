@@ -9,9 +9,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/peer"
 )
 
 // The hit path: the peer is already pooled, no Flush runs, a prometheus

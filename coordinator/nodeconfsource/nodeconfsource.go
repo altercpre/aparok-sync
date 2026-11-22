@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/nodeconf"
 )
 
 type NodeConfSource interface {

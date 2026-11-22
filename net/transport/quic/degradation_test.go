@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/transport"
-	"github.com/anyproto/any-sync/net/transport/quic/mock_quic"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/transport/quic/mock_quic"
 )
 
 func TestClassifyClose(t *testing.T) {

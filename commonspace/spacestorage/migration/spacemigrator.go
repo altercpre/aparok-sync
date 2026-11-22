@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"time"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-store/anyenc"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-store/anyenc"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/any-sync/util/slice"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/slice"
 )
 
 const (

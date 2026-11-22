@@ -10,13 +10,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/rpc/rpctest"
-	"github.com/anyproto/any-sync/testutil/accounttest"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/rpc/rpctest"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 var testCtx = context.Background()

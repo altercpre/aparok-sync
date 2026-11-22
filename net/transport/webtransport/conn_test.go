@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 // testSessionPair creates a client and server WebTransport session pair for testing.

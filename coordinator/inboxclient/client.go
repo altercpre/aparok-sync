@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_inboxclient/mock_inboxclient.go github.com/anyproto/any-sync/coordinator/inboxclient InboxClient
+//go:generate mockgen -destination mock_inboxclient/mock_inboxclient.go github.com/altercpre/aparok-sync/coordinator/inboxclient InboxClient
 package inboxclient
 
 import (
@@ -8,16 +8,16 @@ import (
 
 	"storj.io/drpc"
 
-	commonaccount "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/coordinator/subscribeclient"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	commonaccount "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/coordinator/subscribeclient"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"go.uber.org/zap"
 )
 

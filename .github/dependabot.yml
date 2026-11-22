@@ -10,6 +10,6 @@ updates:
     schedule:
       interval: "weekly"
     ignore:
-      - dependency-name: "github.com/anyproto/go-chash"
+      - dependency-name: "github.com/altercpre/go-chash"
     open-pull-requests-limit: 10
       

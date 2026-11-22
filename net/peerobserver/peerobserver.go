@@ -14,8 +14,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 // CName is the app component name under which an Observer is registered.

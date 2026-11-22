@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/rpc/limiter/limiterproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/rpc/limiter/limiterproto"
 )
 
 var ctx = context.Background()

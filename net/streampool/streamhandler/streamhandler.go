@@ -5,8 +5,8 @@ import (
 
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/peer"
 )
 
 const CName = "common.streampool.streamhandler"

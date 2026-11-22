@@ -2,7 +2,7 @@ package consensusclient
 
 import (
 	"context"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
 	"github.com/cheggaaa/mb/v3"
 	"sync"
 )

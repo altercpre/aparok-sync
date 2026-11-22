@@ -3,7 +3,7 @@ package nodeconf
 import (
 	"strings"
 
-	"github.com/anyproto/go-chash"
+	"github.com/altercpre/go-chash"
 )
 
 type NodeConf interface {

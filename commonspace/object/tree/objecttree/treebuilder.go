@@ -9,9 +9,9 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/tools/container/intsets"
 
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/util/slice"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/util/slice"
 )
 
 var (

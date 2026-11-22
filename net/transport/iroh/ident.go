@@ -6,7 +6,7 @@ import (
 	libp2ppeer "github.com/libp2p/go-libp2p/core/peer"
 	"github.com/tmc/go-iroh/key"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 // The iroh endpoint id is the device's ed25519 peer key, so the any-sync

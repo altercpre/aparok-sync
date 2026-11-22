@@ -18,10 +18,10 @@ import (
 	"storj.io/drpc/drpcconn"
 	"storj.io/drpc/drpcwire"
 
-	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/net/transport"
-	"github.com/anyproto/any-sync/net/transport/mock_transport"
+	"github.com/altercpre/aparok-sync/net/rpc"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/transport/mock_transport"
 )
 
 var ctx = context.Background()

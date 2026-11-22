@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_coordinatorclient/mock_coordinatorclient.go github.com/anyproto/any-sync/coordinator/coordinatorclient CoordinatorClient
+//go:generate mockgen -destination mock_coordinatorclient/mock_coordinatorclient.go github.com/altercpre/aparok-sync/coordinator/coordinatorclient CoordinatorClient
 package coordinatorclient
 
 import (
@@ -9,17 +9,17 @@ import (
 	"github.com/ipfs/go-cid"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/identityrepo/identityrepoproto"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/cidutil"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/identityrepo/identityrepoproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/cidutil"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 const CName = "common.coordinator.coordinatorclient"

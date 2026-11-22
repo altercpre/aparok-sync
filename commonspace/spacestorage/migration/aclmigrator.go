@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"slices"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/recordverifier"
-	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/recordverifier"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
 )
 
 func migrateAclList(ctx context.Context, oldStorage oldstorage.ListStorage, headStorage headstorage.HeadStorage, store anystore.DB) (list.AclList, error) {

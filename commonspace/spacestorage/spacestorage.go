@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_spacestorage/mock_spacestorage.go github.com/anyproto/any-sync/commonspace/spacestorage SpaceStorage
+//go:generate mockgen -destination mock_spacestorage/mock_spacestorage.go github.com/altercpre/aparok-sync/commonspace/spacestorage SpaceStorage
 package spacestorage
 
 import (
@@ -6,17 +6,17 @@ import (
 	"errors"
 	"sync/atomic"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/headsync/statestorage"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/statestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
 )
 
 const CName = "common.commonspace.spacestorage"

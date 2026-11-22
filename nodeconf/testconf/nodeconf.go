@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/anyproto/go-chash"
+	"github.com/altercpre/go-chash"
 
-	accountService "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/nodeconf"
+	accountService "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/nodeconf"
 )
 
 type StubConf struct {

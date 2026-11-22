@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/go-bip39"
-	"github.com/anyproto/go-slip10"
+	"github.com/altercpre/go-bip39"
+	"github.com/altercpre/go-slip10"
 
-	"github.com/anyproto/any-sync/util/ethereum/accounts"
+	"github.com/altercpre/aparok-sync/util/ethereum/accounts"
 )
 
 var (

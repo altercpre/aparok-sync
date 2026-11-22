@@ -6,22 +6,22 @@ import (
 	"net"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/keyvalue/kvinterfaces"
-	"github.com/anyproto/any-sync/commonspace/object/treesyncer"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/keyvalue/kvinterfaces"
+	"github.com/altercpre/aparok-sync/commonspace/object/treesyncer"
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/credentialprovider"
-	"github.com/anyproto/any-sync/commonspace/deletionstate"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl"
-	"github.com/anyproto/any-sync/commonspace/object/treemanager"
-	"github.com/anyproto/any-sync/commonspace/peermanager"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/util/slice"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/credentialprovider"
+	"github.com/altercpre/aparok-sync/commonspace/deletionstate"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/object/treemanager"
+	"github.com/altercpre/aparok-sync/commonspace/peermanager"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/util/slice"
 )
 
 type DiffSyncer interface {

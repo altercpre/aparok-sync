@@ -3,8 +3,8 @@ package fileprotoerr
 import (
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
 )
 
 var (

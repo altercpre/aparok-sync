@@ -3,10 +3,10 @@ package list
 import (
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/object/acl/recordverifier"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/recordverifier"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 type StorageProvider func(root *consensusproto.RawRecordWithId) (Storage, error)

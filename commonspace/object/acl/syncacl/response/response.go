@@ -3,9 +3,9 @@ package response
 import (
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/protobuf"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/protobuf"
 )
 
 type Response struct {

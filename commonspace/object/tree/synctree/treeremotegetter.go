@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/net/peer"
 )
 
 var (

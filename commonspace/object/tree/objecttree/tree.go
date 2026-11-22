@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/anyproto/lexid"
+	"github.com/altercpre/lexid"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/util/slice"
+	"github.com/altercpre/aparok-sync/util/slice"
 )
 
 type Mode int

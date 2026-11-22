@@ -5,14 +5,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app/ldiff"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/deletionstate"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/app/ldiff"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/deletionstate"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
 )
 
 // DiffManager holds the current diff (DiffType_V3).

@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_objectmanager/mock_objectmanager.go github.com/anyproto/any-sync/commonspace/objectmanager ObjectManager
+//go:generate mockgen -destination mock_objectmanager/mock_objectmanager.go github.com/altercpre/aparok-sync/commonspace/objectmanager ObjectManager
 package objectmanager
 
 import (
@@ -6,13 +6,13 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl"
-	"github.com/anyproto/any-sync/commonspace/object/syncobjectgetter"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/treemanager"
-	"github.com/anyproto/any-sync/commonspace/settings"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/object/syncobjectgetter"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/treemanager"
+	"github.com/altercpre/aparok-sync/commonspace/settings"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
 )
 
 var (

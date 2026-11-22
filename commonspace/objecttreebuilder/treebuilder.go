@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_objecttreebuilder/mock_objecttreebuilder.go github.com/anyproto/any-sync/commonspace/objecttreebuilder TreeBuilder
+//go:generate mockgen -destination mock_objecttreebuilder/mock_objecttreebuilder.go github.com/altercpre/aparok-sync/commonspace/objecttreebuilder TreeBuilder
 package objecttreebuilder
 
 import (
@@ -6,25 +6,25 @@ import (
 	"errors"
 	"sync/atomic"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/debugstat"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/updatelistener"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/commonspace/peermanager"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/sync"
-	"github.com/anyproto/any-sync/commonspace/syncstatus"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/updatelistener"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/peermanager"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/sync"
+	"github.com/altercpre/aparok-sync/commonspace/syncstatus"
+	"github.com/altercpre/aparok-sync/nodeconf"
 )
 
 type BuildTreeOpts struct {

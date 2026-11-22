@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 // TestSyncLogger_ConcurrentLogSyncDone guards against the data race that was

@@ -3,7 +3,7 @@ package debugstat
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 )
 
 func NewNoOp() StatService {

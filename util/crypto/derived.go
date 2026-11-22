@@ -7,8 +7,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/anyproto/go-slip10"
-	"github.com/anyproto/go-slip21"
+	"github.com/altercpre/go-slip10"
+	"github.com/altercpre/go-slip21"
 )
 
 const (

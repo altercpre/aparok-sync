@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/rpc/rpctest/multiconntest"
-	"github.com/anyproto/any-sync/net/secureservice/handshake/handshakeproto"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/rpc"
+	"github.com/altercpre/aparok-sync/net/rpc/rpctest/multiconntest"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake/handshakeproto"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 // silentCtrl serves sub conns by reading requests and never answering

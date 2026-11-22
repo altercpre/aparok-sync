@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 type stream struct {

@@ -1,7 +1,7 @@
 package objecttree
 
 import (
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
 )
 
 func IsEmptyDerivedTree(tree ObjectTree) bool {

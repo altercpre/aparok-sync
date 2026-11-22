@@ -3,8 +3,8 @@ package fileprotov2err
 import (
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto/fileprotov2"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotov2"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
 )
 
 // errGroup registers the v2 WHOLE-RPC (drpc-level) errors in the offset-800

@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	accountService "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/nodeconf"
+	accountService "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/nodeconf"
 )
 
 const CName = "common.util.syncqueues"

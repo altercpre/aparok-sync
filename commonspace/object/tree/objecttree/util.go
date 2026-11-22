@@ -2,7 +2,7 @@ package objecttree
 
 import (
 	"fmt"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"math/rand"
 )
 

@@ -14,17 +14,17 @@ import (
 	"go.uber.org/mock/gomock"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/peermanager"
-	"github.com/anyproto/any-sync/commonspace/peermanager/mock_peermanager"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
-	"github.com/anyproto/any-sync/testutil/accounttest"
-	"github.com/anyproto/any-sync/testutil/anymock"
-	"github.com/anyproto/any-sync/util/syncqueues"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/peermanager"
+	"github.com/altercpre/aparok-sync/commonspace/peermanager/mock_peermanager"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
+	"github.com/altercpre/aparok-sync/testutil/anymock"
+	"github.com/altercpre/aparok-sync/util/syncqueues"
 )
 
 var ctx = context.Background()

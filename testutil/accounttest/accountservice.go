@@ -1,10 +1,10 @@
 package accounttest
 
 import (
-	accountService "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/util/crypto"
+	accountService "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 // AccountTestService provides service for test purposes, generates new random account every Init

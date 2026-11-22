@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_synctree/mock_synctree.go github.com/anyproto/any-sync/commonspace/object/tree/synctree SyncTree,HeadNotifiable,SyncClient,RequestFactory
+//go:generate mockgen -destination mock_synctree/mock_synctree.go github.com/altercpre/aparok-sync/commonspace/object/tree/synctree SyncTree,HeadNotifiable,SyncClient,RequestFactory
 package synctree
 
 import (
@@ -7,21 +7,21 @@ import (
 	"slices"
 	"time"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/updatelistener"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
-	"github.com/anyproto/any-sync/commonspace/syncstatus"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/slice"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/updatelistener"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/commonspace/syncstatus"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/slice"
 )
 
 var (

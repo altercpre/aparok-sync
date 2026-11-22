@@ -7,16 +7,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/deletionmanager/mock_deletionmanager"
-	"github.com/anyproto/any-sync/commonspace/deletionstate"
-	"github.com/anyproto/any-sync/commonspace/deletionstate/mock_deletionstate"
-	"github.com/anyproto/any-sync/commonspace/object/treemanager"
-	"github.com/anyproto/any-sync/commonspace/object/treemanager/mock_treemanager"
-	"github.com/anyproto/any-sync/commonspace/settings/settingsstate"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/spacestorage/mock_spacestorage"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/deletionmanager/mock_deletionmanager"
+	"github.com/altercpre/aparok-sync/commonspace/deletionstate"
+	"github.com/altercpre/aparok-sync/commonspace/deletionstate/mock_deletionstate"
+	"github.com/altercpre/aparok-sync/commonspace/object/treemanager"
+	"github.com/altercpre/aparok-sync/commonspace/object/treemanager/mock_treemanager"
+	"github.com/altercpre/aparok-sync/commonspace/settings/settingsstate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage/mock_spacestorage"
 )
 
 type deletionManagerFixture struct {

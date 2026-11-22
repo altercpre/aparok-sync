@@ -8,17 +8,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/app/ldiff"
-	"github.com/anyproto/any-sync/app/ldiff/mock_ldiff"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/deletionstate/mock_deletionstate"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage/mock_headstorage"
-	"github.com/anyproto/any-sync/commonspace/headsync/statestorage/mock_statestorage"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl/mock_syncacl"
-	"github.com/anyproto/any-sync/commonspace/spacestorage/mock_spacestorage"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/app/ldiff"
+	"github.com/altercpre/aparok-sync/app/ldiff/mock_ldiff"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/deletionstate/mock_deletionstate"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage/mock_headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/statestorage/mock_statestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl/mock_syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage/mock_spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
 )
 
 type diffManagerFixture struct {

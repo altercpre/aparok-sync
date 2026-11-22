@@ -3,8 +3,8 @@ package webtransport
 import (
 	"net"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 const CName = "net.transport.webtransport"

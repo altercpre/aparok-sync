@@ -3,8 +3,8 @@ package pubsub
 import (
 	"encoding/binary"
 
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 const signPrefix = "anysync:pubsub:v1"

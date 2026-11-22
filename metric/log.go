@@ -2,7 +2,7 @@ package metric
 
 import (
 	"context"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peer"
 	"go.uber.org/zap"
 	"time"
 )

@@ -3,7 +3,7 @@ package pubsub
 import (
 	"strings"
 
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
 )
 
 const (

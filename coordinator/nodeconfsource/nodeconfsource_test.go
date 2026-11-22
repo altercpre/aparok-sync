@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient/mock_coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient/mock_coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/nodeconf"
 )
 
 func newTestSource(t *testing.T, resp *coordinatorproto.NetworkConfigurationResponse) *nodeConfSource {

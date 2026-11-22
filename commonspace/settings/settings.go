@@ -5,17 +5,17 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/deletionmanager"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/updatelistener"
-	"github.com/anyproto/any-sync/commonspace/objecttreebuilder"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/deletionmanager"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/updatelistener"
+	"github.com/altercpre/aparok-sync/commonspace/objecttreebuilder"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 const CName = "common.commonspace.settings"

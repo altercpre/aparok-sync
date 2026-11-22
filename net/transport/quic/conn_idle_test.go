@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/net/transport"
-	"github.com/anyproto/any-sync/net/transport/quic/mock_quic"
+	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/transport/quic/mock_quic"
 )
 
 func TestQuicMultiConn_Open_IdleTimeout(t *testing.T) {

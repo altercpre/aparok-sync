@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/quicdemotion"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/quicdemotion"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 // What the dial loop learns and hands to the demotion component, and whether

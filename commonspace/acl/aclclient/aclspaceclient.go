@@ -4,14 +4,14 @@ import (
 	"context"
 	"errors"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/node/nodeclient"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/node/nodeclient"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 type InviteResponse struct {

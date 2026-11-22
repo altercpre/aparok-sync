@@ -3,10 +3,10 @@ package innerstorage
 import (
 	"errors"
 
-	"github.com/anyproto/any-store/anyenc"
+	"github.com/altercpre/aparok-store/anyenc"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 var (

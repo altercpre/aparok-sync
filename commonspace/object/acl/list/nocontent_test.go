@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list/listtest"
-	"github.com/anyproto/any-sync/commonspace/object/acl/recordverifier"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list/listtest"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/recordverifier"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 // Permission checks live in the per-type apply handlers, so a record whose content reaches none of them

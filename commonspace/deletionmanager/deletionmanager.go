@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_deletionmanager/mock_deletionmanager.go github.com/anyproto/any-sync/commonspace/deletionmanager DeletionManager,Deleter
+//go:generate mockgen -destination mock_deletionmanager/mock_deletionmanager.go github.com/altercpre/aparok-sync/commonspace/deletionmanager DeletionManager,Deleter
 package deletionmanager
 
 import (
@@ -6,13 +6,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/deletionstate"
-	"github.com/anyproto/any-sync/commonspace/object/treemanager"
-	"github.com/anyproto/any-sync/commonspace/settings/settingsstate"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/deletionstate"
+	"github.com/altercpre/aparok-sync/commonspace/object/treemanager"
+	"github.com/altercpre/aparok-sync/commonspace/settings/settingsstate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
 )
 
 type DeletionManager interface {

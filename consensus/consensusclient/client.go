@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_consensusclient/mock_consensusclient.go github.com/anyproto/any-sync/consensus/consensusclient Service
+//go:generate mockgen -destination mock_consensusclient/mock_consensusclient.go github.com/altercpre/aparok-sync/consensus/consensusclient Service
 package consensusclient
 
 import (
@@ -9,12 +9,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/nodeconf"
 )
 
 const CName = "consensus.consensusclient"

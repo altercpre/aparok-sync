@@ -1,10 +1,10 @@
 package testnodeconf
 
 import (
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/testutil/accounttest"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
 )
 
 func GenNodeConfig(num int) (conf *Config) {

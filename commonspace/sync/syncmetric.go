@@ -6,8 +6,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
-	"github.com/anyproto/any-sync/metric"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/metric"
 )
 
 type syncMetric struct {

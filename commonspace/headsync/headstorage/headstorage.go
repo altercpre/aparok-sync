@@ -1,15 +1,15 @@
-//go:generate mockgen -destination mock_headstorage/mock_headstorage.go github.com/anyproto/any-sync/commonspace/headsync/headstorage HeadStorage
+//go:generate mockgen -destination mock_headstorage/mock_headstorage.go github.com/altercpre/aparok-sync/commonspace/headsync/headstorage HeadStorage
 package headstorage
 
 import (
 	"fmt"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-store/anyenc"
-	"github.com/anyproto/any-store/query"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-store/anyenc"
+	"github.com/altercpre/aparok-store/query"
 	"golang.org/x/net/context"
 
-	"github.com/anyproto/any-sync/util/storeutil"
+	"github.com/altercpre/aparok-sync/util/storeutil"
 )
 
 const (

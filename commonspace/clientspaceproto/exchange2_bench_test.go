@@ -3,7 +3,7 @@ package clientspaceproto
 import (
 	"testing"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 // BenchmarkExchangeV2 measures a full exchange where both peers hold 1000 spaces,

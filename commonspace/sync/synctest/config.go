@@ -1,8 +1,8 @@
 package synctest
 
 import (
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/streampool"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/streampool"
 )
 
 type Config struct {

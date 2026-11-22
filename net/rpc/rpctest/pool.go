@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/pool"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/pool"
 )
 
 func NewTestPool() *TestPool {

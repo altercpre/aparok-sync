@@ -3,7 +3,7 @@ package pubsub
 import (
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
 )
 
 // rpcHandler adapts Service to the generated DRPC server interface.

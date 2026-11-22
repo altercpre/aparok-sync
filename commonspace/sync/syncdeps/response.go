@@ -1,7 +1,7 @@
 package syncdeps
 
 import (
-	"github.com/anyproto/any-sync/util/multiqueue"
+	"github.com/altercpre/aparok-sync/util/multiqueue"
 )
 
 type Response interface {

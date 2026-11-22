@@ -1,9 +1,9 @@
-//go:generate mockgen -destination mock_accountservice/mock_accountservice.go github.com/anyproto/any-sync/accountservice Service
+//go:generate mockgen -destination mock_accountservice/mock_accountservice.go github.com/altercpre/aparok-sync/accountservice Service
 package accountservice
 
 import (
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
 )
 
 const CName = "common.accountservice"

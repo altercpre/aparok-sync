@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"encoding/binary"
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
 	"reflect"
 	"testing"
 

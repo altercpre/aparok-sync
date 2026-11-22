@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/app/debugstat"
 )
 
 // app.Start closes components it never ran: a failing Init makes closeServices

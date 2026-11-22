@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_subscribeclient/mock_subscribeclient.go github.com/anyproto/any-sync/coordinator/subscribeclient SubscribeClientService
+//go:generate mockgen -destination mock_subscribeclient/mock_subscribeclient.go github.com/altercpre/aparok-sync/coordinator/subscribeclient SubscribeClientService
 package subscribeclient
 
 import (
@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"go.uber.org/zap"
 )
 

@@ -10,14 +10,14 @@ import (
 	"golang.org/x/net/context"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/debugstat"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/streampool/streamhandler"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/streampool/streamhandler"
 )
 
 const CName = "common.net.streampool"

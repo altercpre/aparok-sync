@@ -3,8 +3,8 @@ package recordverifier
 import (
 	"fmt"
 
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 type AcceptorVerifier interface {

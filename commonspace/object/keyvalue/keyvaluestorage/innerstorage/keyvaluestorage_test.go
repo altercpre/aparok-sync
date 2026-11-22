@@ -8,12 +8,12 @@ import (
 	"sort"
 	"testing"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/app/ldiff"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/keyvalue/keyvaluestorage/innerstorage"
+	"github.com/altercpre/aparok-sync/app/ldiff"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/keyvalue/keyvaluestorage/innerstorage"
 )
 
 var ctx = context.Background()

@@ -3,9 +3,9 @@ package syncacl
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/commonspace/sync"
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/commonspace/sync"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
 )
 
 type SyncClient interface {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
 )
 
 // rawStream opens a direct PubSubStream from client fx to server target, bypassing

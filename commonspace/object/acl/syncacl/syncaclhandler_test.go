@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list/mock_list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl/mock_syncacl"
-	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl/response"
-	"github.com/anyproto/any-sync/commonspace/sync/objectsync/objectmessages"
-	"github.com/anyproto/any-sync/commonspace/syncstatus/mock_syncstatus"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list/mock_list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl/mock_syncacl"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl/response"
+	"github.com/altercpre/aparok-sync/commonspace/sync/objectsync/objectmessages"
+	"github.com/altercpre/aparok-sync/commonspace/syncstatus/mock_syncstatus"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/net/peer"
 )
 
 type testQueueUpdater struct {

@@ -7,10 +7,10 @@ import (
 	// all of them together: rpcerr panics at init if two groups claim the
 	// same offset+code, so a green run proves the 900 band does not
 	// collide with v1 (200) / v2 (800) or anything else linked here.
-	_ "github.com/anyproto/any-sync/commonfile/fileproto/fileprotoerr"
-	_ "github.com/anyproto/any-sync/commonfile/fileproto/fileprotov2/fileprotov2err"
+	_ "github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotoerr"
+	_ "github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotov2/fileprotov2err"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto/filep2p"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto/filep2p"
 )
 
 func TestFromCodeMapsEveryCode(t *testing.T) {

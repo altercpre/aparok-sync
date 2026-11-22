@@ -1,6 +1,6 @@
 package synctest
 
-import "github.com/anyproto/any-sync/app"
+import "github.com/altercpre/aparok-sync/app"
 
 type SyncApp struct {
 	app *app.App

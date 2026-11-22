@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 func newTestPublish() *pubsubproto.Publish {

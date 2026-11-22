@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/net/connutil"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/connutil"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 // newSessionPair returns a client MultiConn whose SYN semaphore holds a single

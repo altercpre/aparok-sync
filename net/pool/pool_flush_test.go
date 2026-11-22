@@ -17,12 +17,12 @@ import (
 	atomic2 "go.uber.org/atomic"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/peerobserver"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peerobserver"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 )
 
 // ctlPeer is a test peer whose TryClose, Close and IsClosed can be paused or

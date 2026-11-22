@@ -1,15 +1,15 @@
-module github.com/anyproto/any-sync
+module github.com/altercpre/aparok-sync
 
 go 1.26.0
 
 require (
 	filippo.io/edwards25519 v1.2.0
-	github.com/anyproto/any-store v1.0.3
-	github.com/anyproto/go-bip39 v1.0.0
-	github.com/anyproto/go-chash v0.1.0
-	github.com/anyproto/go-slip10 v1.0.1
-	github.com/anyproto/go-slip21 v1.0.0
-	github.com/anyproto/lexid v0.0.6
+	github.com/altercpre/aparok-store v1.0.3
+	github.com/altercpre/go-bip39 v1.0.0
+	github.com/altercpre/go-chash v0.1.0
+	github.com/altercpre/go-slip10 v1.0.1
+	github.com/altercpre/go-slip21 v1.0.0
+	github.com/altercpre/lexid v0.0.6
 	github.com/cespare/xxhash v1.1.0
 	github.com/cheggaaa/mb/v3 v3.0.3
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.1
@@ -51,7 +51,7 @@ require (
 )
 
 require (
-	github.com/anyproto/go-sqlite v1.4.2-any // indirect
+	github.com/altercpre/go-sqlite v1.4.2-any // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coder/websocket v1.8.14 // indirect

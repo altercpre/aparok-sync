@@ -6,7 +6,7 @@ import (
 	"crypto/rand"
 	"crypto/subtle"
 	"fmt"
-	"github.com/anyproto/any-sync/util/crypto/cryptoproto"
+	"github.com/altercpre/aparok-sync/util/crypto/cryptoproto"
 	mbase "github.com/multiformats/go-multibase"
 )
 

@@ -1,19 +1,19 @@
-//go:generate mockgen -destination mock_aclclient/mock_aclclient.go github.com/anyproto/any-sync/commonspace/acl/aclclient AclJoiningClient,AclSpaceClient
+//go:generate mockgen -destination mock_aclclient/mock_aclclient.go github.com/altercpre/aparok-sync/commonspace/acl/aclclient AclJoiningClient,AclSpaceClient
 package aclclient
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/acl/recordverifier"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/node/nodeclient"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/recordverifier"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/node/nodeclient"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 const CName = "common.acl.aclclient"

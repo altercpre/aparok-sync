@@ -5,13 +5,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/spacepayloads"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/spacepayloads"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 func newStorageCreatePayload(t *testing.T) spacestorage.SpaceStorageCreatePayload {

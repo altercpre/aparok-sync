@@ -12,8 +12,8 @@ import (
 	"github.com/quic-go/quic-go"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 type connection interface {

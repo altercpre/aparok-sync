@@ -11,15 +11,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpctest"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
-	"github.com/anyproto/any-sync/testutil/accounttest"
-	"github.com/anyproto/any-sync/util/cidutil"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpctest"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
+	"github.com/altercpre/aparok-sync/util/cidutil"
 )
 
 func TestService_Watch(t *testing.T) {

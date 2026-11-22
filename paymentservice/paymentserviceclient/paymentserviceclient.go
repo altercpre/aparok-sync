@@ -1,20 +1,20 @@
-//go:generate mockgen -destination=mock/mock_paymentserviceclient.go -package=mock_paymentserviceclient github.com/anyproto/any-sync/paymentservice/paymentserviceclient AnyPpClientService
+//go:generate mockgen -destination=mock/mock_paymentserviceclient.go -package=mock_paymentserviceclient github.com/altercpre/aparok-sync/paymentservice/paymentserviceclient AnyPpClientService
 package paymentserviceclient
 
 import (
 	"context"
 	"errors"
 
-	"github.com/anyproto/any-sync/net"
+	"github.com/altercpre/aparok-sync/net"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"go.uber.org/zap"
 
-	pp "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
+	pp "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
 )
 
 const CName = "any-pp.drpcclient"

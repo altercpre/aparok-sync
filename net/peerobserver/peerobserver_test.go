@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/logger"
 )
 
 // captureLogs rebinds the package's named logger onto an observed core, so

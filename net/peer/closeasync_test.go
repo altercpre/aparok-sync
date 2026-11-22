@@ -17,10 +17,10 @@ import (
 	"storj.io/drpc/drpcerr"
 	"storj.io/drpc/drpcwire"
 
-	"github.com/anyproto/any-sync/net/connutil"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/net/secureservice/handshake/handshakeproto"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/connutil"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake/handshakeproto"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 type rawMsg []byte

@@ -3,7 +3,7 @@ package syncobjectgetter
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/commonspace/sync/syncdeps"
+	"github.com/altercpre/aparok-sync/commonspace/sync/syncdeps"
 )
 
 type SyncObject interface {

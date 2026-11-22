@@ -15,11 +15,11 @@ import (
 	"storj.io/drpc/drpcmux"
 	"storj.io/drpc/drpcserver"
 
-	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/rpc/encoding"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	pb "github.com/anyproto/any-sync/net/streampool/testservice"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/rpc"
+	"github.com/altercpre/aparok-sync/net/rpc/encoding"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	pb "github.com/altercpre/aparok-sync/net/streampool/testservice"
+	"github.com/altercpre/aparok-sync/net/transport"
 )
 
 func init() {

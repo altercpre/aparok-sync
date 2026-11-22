@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
 )
 
 var (

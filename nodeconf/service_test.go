@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/testutil/accounttest"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
 )
 
 var ctx = context.Background()

@@ -6,8 +6,8 @@ import (
 
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/protobuf"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/protobuf"
 )
 
 var messagePool = &sync.Pool{

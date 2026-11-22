@@ -3,8 +3,8 @@
 package listtest
 
 import (
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/util/cidutil"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/util/cidutil"
 )
 
 // WrapAclRecord attaches a CID to the given raw record. It panics on

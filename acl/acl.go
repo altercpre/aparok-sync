@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_acl/mock_acl.go github.com/anyproto/any-sync/acl AclService
+//go:generate mockgen -destination mock_acl/mock_acl.go github.com/altercpre/aparok-sync/acl AclService
 package acl
 
 import (
@@ -8,16 +8,16 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	commonaccount "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/consensus/consensusclient"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	commonaccount "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/consensus/consensusclient"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 const CName = "coordinator.acl"

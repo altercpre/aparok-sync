@@ -2,8 +2,8 @@ package consensuserr
 
 import (
 	"fmt"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
 )
 
 var (

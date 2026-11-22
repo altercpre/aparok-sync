@@ -3,8 +3,8 @@ package filep2perr
 import (
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto/filep2p"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto/filep2p"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
 )
 
 // errGroup registers the peer-to-peer file WHOLE-RPC (drpc-level) errors in the

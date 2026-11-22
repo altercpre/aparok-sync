@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 func TestDeriveDiscoveryKey(t *testing.T) {

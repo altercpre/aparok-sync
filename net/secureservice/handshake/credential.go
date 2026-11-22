@@ -2,7 +2,7 @@ package handshake
 
 import (
 	"context"
-	"github.com/anyproto/any-sync/net/secureservice/handshake/handshakeproto"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake/handshakeproto"
 	"io"
 )
 

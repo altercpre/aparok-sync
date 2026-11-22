@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/util/periodicsync"
+	"github.com/altercpre/aparok-sync/util/periodicsync"
 )
 
 type ActionPool interface {

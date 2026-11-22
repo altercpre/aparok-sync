@@ -1,11 +1,11 @@
-//go:generate mockgen -destination mock_statestorage/mock_statestorage.go github.com/anyproto/any-sync/commonspace/headsync/statestorage StateStorage
+//go:generate mockgen -destination mock_statestorage/mock_statestorage.go github.com/altercpre/aparok-sync/commonspace/headsync/statestorage StateStorage
 package statestorage
 
 import (
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-store/anyenc"
-	"github.com/anyproto/any-store/query"
-	"github.com/anyproto/any-sync/util/storeutil"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-store/anyenc"
+	"github.com/altercpre/aparok-store/query"
+	"github.com/altercpre/aparok-sync/util/storeutil"
 	"golang.org/x/net/context"
 )
 

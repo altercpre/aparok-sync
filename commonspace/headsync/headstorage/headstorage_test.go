@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	anystore "github.com/anyproto/any-store"
+	anystore "github.com/altercpre/aparok-store"
 	"github.com/stretchr/testify/require"
 )
 

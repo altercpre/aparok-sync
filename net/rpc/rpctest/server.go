@@ -7,11 +7,11 @@ import (
 	"storj.io/drpc/drpcmux"
 	"storj.io/drpc/drpcserver"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/rpc/encoding"
-	"github.com/anyproto/any-sync/net/rpc/server"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/rpc"
+	"github.com/altercpre/aparok-sync/net/rpc/encoding"
+	"github.com/altercpre/aparok-sync/net/rpc/server"
 )
 
 type mockCtrl struct {
